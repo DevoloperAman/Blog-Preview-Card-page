@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #FDD451;
+    font-family: "Kanit", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    width: 25%;
+    height: 70%;
+    background-color: #fff;
+    border-radius: 30px;
+    box-shadow: #000 10px 10px   8px;  
+}
+
+#image_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45%;
+}
+
+#image_section>img{
+    width: 85%;
+    border-radius: 10px;
+}
+
+#learning_line{
+    font-weight: 600;
+    height: 6%;
+    width: 23%;
+    background-color: #FDD451;
+    border-radius: 4px;
+    margin-left: 29px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#date_line{
+    margin-left: 29px;
+    margin-top: 10px;
+}
+
+#main_head{
+    color:#FDD451; 
+    margin-left: 29px;
+    margin-top: 10px;
+}
+
+#informative_lines{
+    height: 18%;
+    width: 85%;
+    margin-left: 29px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#image_section2{
+    width: 45%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+    margin-left: 13px;
+}
+
+#image_section2>img{
+    width: 25%;
+    
+    border-radius: 10px;
+}
